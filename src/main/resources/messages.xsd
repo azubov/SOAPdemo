@@ -31,4 +31,12 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="ResponseWithMessages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="messageList" type="tns:MessageList" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
 </xs:schema>
