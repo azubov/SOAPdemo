@@ -1,4 +1,4 @@
-package ru.lanit.SoapDemo;
+package ru.lanit.SoapDemo.countries;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.util.Assert;
